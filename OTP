@@ -1,0 +1,10 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.
+import random
+a=random.randint(10000, 99999)
+otp=int(input("enter otp"))
+print(a)
+if otp == a:
+    print("verified successfully")
+else:
+    print("invalid")
